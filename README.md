@@ -13,7 +13,7 @@ class demoHttpService() {
   
   @httpEmitter
   query(args) {
-    return this.http.get().map(response => response.json);
+    return this.http.get().map(response => response.json());
   }
 }
 ```
