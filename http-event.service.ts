@@ -7,7 +7,7 @@ export function httpEmitter(target, key, descriptor) {
     return Object.assign({}, descriptor, {
         value: function () {
             httpEventServiceFactory.emitHttpEvent('START');
-            const subscription = descriptor.value.apply(this, arguments);
+            const subscription = descriptor.value.apply(this, arguments).share();
             subscription.subscribe(() => {
                 httpEventServiceFactory.emitHttpEvent('FINISH');
             });
