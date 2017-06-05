@@ -1,0 +1,26 @@
+{
+  "name": "angular2-http-event",
+  "version": "1.0.0",
+  "description": "simple events center for angular2 http module",
+  "main": "http-event.service.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gucheen/angular2-http-event.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "http",
+    "event",
+    "rxjs"
+  ],
+  "author": "guchengf@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gucheen/angular2-http-event/issues"
+  },
+  "homepage": "https://github.com/gucheen/angular2-http-event#readme"
+}
